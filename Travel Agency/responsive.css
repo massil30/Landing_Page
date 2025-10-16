@@ -1,0 +1,14 @@
+
+
+/* ===== Responsive Breakpoints ===== */
+@media (max-width: 400px) {  /* small phones */
+  .sm-hidden { display: none !important; }
+}
+
+@media (max-width: 768px) {  /* tablets */
+  .md-hidden { display: none !important; }
+}
+
+@media (max-width: 1024px) { /* laptops */
+  .lg-hidden { display: none !important; }
+}
