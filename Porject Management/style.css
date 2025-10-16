@@ -1,0 +1,17 @@
+.button-container {
+  padding: 8px 16px; /* vertical 8, horizontal 16 */
+}
+
+.login-btn {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;  /* vertical 8, horizontal 16 */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: darkblue;
+}
