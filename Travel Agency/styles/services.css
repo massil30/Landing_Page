@@ -1,0 +1,99 @@
+/* ===== Services Section ===== */
+.services {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+/* CATEGORY text */
+.category {
+  font-size: 18px;
+  color: #5E6282;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.services-title {
+  font-family: 'Volkhov', serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #181E41;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+/* ===== Cards Row ===== */
+.services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  position: relative;
+}
+
+/* Each Card */
+.service-item {
+  background-color: #fff;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* default: no shadow */
+  position: relative;
+  z-index: 1;
+}
+
+/* Card image (160 x 150) */
+.service-item .card-image,
+.service-item img {
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+  display: block;
+}
+
+
+
+/* Headings */
+.service-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #181E41;
+  margin: 0;
+}
+
+/* Paragraph Text */
+.service-item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5E6282;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-item {
+    width: 80%;
+  }
+}
