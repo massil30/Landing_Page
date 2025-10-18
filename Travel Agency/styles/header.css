@@ -1,0 +1,70 @@
+/* ===== Global Styles ===== */
+header {
+  margin: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Header Layout ===== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+}
+
+/* ===== Logo ===== */
+.header .logo img {
+  height: 33px;
+}
+
+/* ===== Nav Links ===== */
+.header .nav-links {
+  margin: 0 80px;
+  display: flex;
+  gap: 60px;
+}
+
+.header .nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header .nav-links a:hover {
+  color: #007bff;
+}
+
+/* ===== Right Section ===== */
+.header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ===== Sign Up Button ===== */
+.header .signup-btn {
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 50px;
+  color: black;
+  border-radius: 5px;
+  padding: 8px 22px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.header .signup-btn:hover {
+  background-color: #f1a501;
+}
+
+/* ===== Language Selector ===== */
+.header .language-select {
+  border: none;
+  padding: 8px 8px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-right: 20px;
+}
