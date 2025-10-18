@@ -19,7 +19,7 @@ header {
 
 /* ===== Nav Links ===== */
 .nav-links {
-    margin: 0 40px;
+    margin: 0 80px;
   display: flex;
   gap: 60px;
 }
@@ -69,4 +69,124 @@ border: none;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   margin-right: 20px; /* external space */
+}
+
+
+/* ====== Section Layout ====== */
+.hero {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+    margin-top: 2px;
+
+  gap: 00px;
+  padding: 10px 80px;
+  min-height: 90vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ====== Left Column ====== */
+.hero-content  {
+    margin-top: 80px;
+    margin-bottom: 24px;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+   align-items: flex-start;
+    justify-content: flex-start; 
+  gap: 00px;
+}
+
+.tagline {
+      margin-top: 2px;
+      margin-bottom: 20px;
+font-weight: bold;
+  color: #f1a501;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.title {
+    margin-top: 0px;
+
+  font-family: 'Volkhov', serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #222;
+}
+
+.description {
+      margin-top: 0px;
+
+  color: #555;
+  line-height: 1.6;
+  max-width: 450px;
+}
+
+/* ====== Buttons ====== */
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #004aad;
+}
+
+/* ====== Play Demo Button ====== */
+.play-demo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #222;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle i {
+  color: var(--primary-color);
+}
+
+/* ====== Right Image ====== */
+.hero-image {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* ====== Variables ====== */
+:root {
+  --primary-color: #0057ff;
 }
