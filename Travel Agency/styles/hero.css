@@ -1,84 +1,91 @@
+/* ====== Variables ====== */
+:root {
+  --primary-color: #f1a501;
+}
 
 /* ====== Hero Layout ====== */
 .hero {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-evenly;
-    margin-top: 2px;
-flex-flow: row wrap;
-align-content: center;
-  gap: 00px;
+  margin-top: 2px;
+  flex-flow: row wrap;
+  align-content: center;
+  gap: 0;
   padding: 10px 80px;
   min-height: 90vh;
   font-family: 'Poppins', sans-serif;
 }
 
 /* ====== Left Column ====== */
-.hero-content  {
-    margin-top: 40px;
-    margin-bottom: 24px;
-
+.hero-content {
+  margin-top: 40px;
+  margin-bottom: 24px;
   flex: 1;
   display: flex;
+  align-content: flex-start;
   flex-direction: column;
-   align-items: flex-start;
-    justify-content: flex-start; 
-  gap: 00px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
 }
 
-.hero.tagline {
-      margin-top: 2px;
-      margin-bottom: 20px;
-font-weight: bold;
-  color: #f1a501;
-  font-size: 0.9rem;
+/* ====== Tagline ====== */
+.hero .tagline {
+  margin-top: 2px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size:20px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.hero.title {
-  margin-top: 0;
+/* ====== Title ====== */
+.hero .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-family: 'Volkhov', serif;
-  font-size: 500px;
+  font-size: clamp(40px, 6vw, 84px);
   font-weight: bold;
   line-height: 1.4;
   color: #181e41;
 }
 
 /* Underline only “enjoy” */
-.hero.highlight {
+.hero .highlight {
   position: relative;
-  color: inherit; /* keep same text color */
+  color: inherit;
 }
 
-/* Custom orange underline */
-.hero.highlight::after {
+.hero .highlight::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 4px; /* underline thickness */
-  background-color: orange;
+  height: 4px;
+  background-color: var(--primary-color);
   border-radius: 2px;
+
 }
 
-.hero.description {
-      margin-top: 0px;
-
+/* ====== Description ====== */
+.hero .description {
+  margin-top: 0;
   color: #555;
   line-height: 1.6;
   max-width: 450px;
 }
 
 /* ====== Buttons ====== */
-.hero.hero-buttons {
+.hero .hero-buttons {
   display: flex;
   align-items: center;
   gap: 25px;
 }
 
-.hero.btn-primary {
+.hero .btn-primary {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -89,12 +96,12 @@ font-weight: bold;
   transition: 0.3s;
 }
 
-.btn-primary:hover {
+.hero .btn-primary:hover {
   background-color: #004aad;
 }
 
 /* ====== Play Demo Button ====== */
-.hero.play-demo {
+.hero .play-demo {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -102,7 +109,7 @@ font-weight: bold;
   color: #222;
 }
 
-.hero.circle {
+.hero .circle {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -112,26 +119,20 @@ font-weight: bold;
   justify-content: center;
 }
 
-.hero.circle i {
+.hero .circle i {
   color: var(--primary-color);
 }
 
 /* ====== Right Image ====== */
-.hero.hero-image {
+.hero .hero-image {
   flex: 1;
   display: flex;
-  justify-content: end;
-
+  justify-content: flex-end;
 }
 
-.hero-image img {
+.hero .hero-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
-}
-
-/* ====== Variables ====== */
-:root {
-  --primary-color: #f1a501;
 }
