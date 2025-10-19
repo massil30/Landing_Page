@@ -1,0 +1,63 @@
+.destinations {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.destinations-content .tagline {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #5E6282;
+  margin-bottom: 10px;
+}
+
+.destinations-content .title {
+  font-family: 'Volkhov', serif;
+  font-size: 50px;
+  color: #14183E;
+  margin-bottom: 50px;
+}
+
+.destinations-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.destination-item {
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 315px;
+}
+
+.destination-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.destination-info {
+  padding: 20px;
+}
+
+.destination-title {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #5E6282;
+  margin-bottom: 10px;
+}
+
+.destination-trip {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #5E6282;
+}
+
+.destination-trip i {
+  margin-right: 10px;
+}

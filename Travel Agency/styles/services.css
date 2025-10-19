@@ -59,8 +59,9 @@
 /* Card image (160 x 150) */
 .service-item .card-image,
 .service-item img {
-  width: 130px;
-  height: 130px;
+    object-fit: cover;
+  width: 100px;
+  height: 100px;
   border-radius: 8px;
   display: block;
 }

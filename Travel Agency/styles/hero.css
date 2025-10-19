@@ -82,7 +82,7 @@
 .hero .hero-buttons {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 45px;
 }
 
 .hero .btn-primary {
