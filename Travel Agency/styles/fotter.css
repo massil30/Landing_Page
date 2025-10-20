@@ -1,0 +1,126 @@
+/* ===== Footer Section ===== */
+.footer {
+  background-color: #fff;
+  padding: 60px 100px 30px 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #5e6282;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* ===== Logo ===== */
+.footer-logo h1 {
+  font-size: 28px;
+  color: #181e41;
+  margin: 0px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ===== Links Columns ===== */
+.footer-links {
+  display: flex;
+  gap: 115px;
+  flex-wrap: wrap;
+}
+
+.footer-column h3 {
+    margin: 0;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 12px;
+  color: #181e41;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #5e6282;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+
+/* ===== Social & App ===== */
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social .social-icons a img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-social p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.footer-social .app-badges {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social .app-badges a img {
+  height: 40px;
+  width: 135px;
+}
+
+/* ===== Footer Copy ===== */
+.footer-copy {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a0a0a0;
+  margin-top: 80px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .footer-social {
+    align-items: center;
+  }
+}
