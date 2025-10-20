@@ -1,0 +1,119 @@
+/* ===========================
+   Steps Section
+   File: styles/steps/steps.css
+   =========================== */
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Left Column ===== */
+.steps-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.steps-content .tagline {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #5E6282;
+}
+
+.steps-content .title {
+    margin-top: 15px;
+  font-family: 'Volkhov', serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #14183E;
+  line-height: 1.2;
+}
+
+/* ===== Steps List ===== */
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+      width: fit-content;
+}
+
+/* ===== Step Icon ===== */
+.step-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.step-icon img {
+  width: 22px;
+  height: 22px;
+}
+
+/* Custom background colors */
+.step1 .step-icon {
+  background-color: #F1A501; /* yellow/orange */
+}
+
+.step2 .step-icon {
+  background-color: #DF6951; /* red/orange */
+}
+
+.step3 .step-icon {
+  background-color: #006380; /* dark blue */
+}
+
+/* ===== Step Text ===== */
+.step-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.step-text h4 {
+    margin: 0;
+  font-size: 16px;  font-family: 'Poppins', serif;
+
+  font-weight: bold;
+  color: #14183E;
+}
+
+.step-text p {
+  font-size: 16px;font-family: 'Poppins', serif;
+  font-weight: 500;
+  color: #5E6282;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ===== Right Image ===== */
+/* ===== Right Image ===== */
+.steps-image {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.steps-image img {
+  width: 80%;   /* 👈 fixed width */
+  height:auto;  /* 👈 fixed height */
+  fill: cover;
+}
