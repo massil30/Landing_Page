@@ -1,0 +1,111 @@
+/* ===== Subscribe Section ===== */
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 130px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Blue Container ===== */
+.subscribe-container {
+  position: relative;
+  background-color: #DFD7F9; /* light blue */
+  border-radius: 129px 20px 20px 20px; /* top-left, top-right, bottom-right, bottom-left */
+  padding: 80px 100px;
+  width: 100%;
+  text-align: center;
+  overflow: visible; /* Important because this ensure no cutting for items out of Box */ 
+}
+
+/* ===== Floating Send Icon ===== */
+.send-icon {
+  position: absolute;
+  top: -35px;
+  right: -20px;
+  background-color: #5E3BE1; /* blue background */
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-icon img {
+  width: 35px;
+  height: 35px;
+}
+
+/* ===== Content ===== */
+.subscribe-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ===== Title ===== */
+.subscribe-title {
+  color: #181e41; /* blue-dark text */
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+/* ===== Input Row ===== */
+.subscribe-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ===== Email Field ===== */
+.email-field {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.email-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+}
+
+.email-input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #5e6282;
+  width: 100%;
+}
+
+.email-input::placeholder {
+  color: #a0a0a0;
+}
+
+/* ===== Submit Button ===== */
+.submit-btn {
+  background-color: #ff7d68;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ff6a55;
+}
